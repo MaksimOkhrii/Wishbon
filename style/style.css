@@ -275,7 +275,8 @@ header .conteiner1200 ul li:last-of-type a{
 .article_ident{
     text-align: center;
     margin: auto 144px 52px auto;
-    max-height: 98px;
+    height: 84px;
+    width: 280px;
 }
 .our_team div article p{
     margin: 29px auto 29px 30px;
