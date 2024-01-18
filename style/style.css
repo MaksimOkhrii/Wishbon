@@ -111,6 +111,91 @@ header .conteiner1200 ul li:last-of-type a{
     background-image: url('../img/first_sections.jpg');
     background-size: cover;
 }
+.our_firm{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between ;
+    max-width: 768px;
+    margin: auto;
+}
+.our_firm_text{
+    max-width: 501px;
+}
+.our_firm .our_firm_text p{
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #403E3B;
+}
+.our_firm .our_firm_text article{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.our_firm .our_firm_text article div{
+ margin-left: 30px;
+}
+.our_firm h3{
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #403E3B;
+}
+.our_firm .our_firm_text article div h4{
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #1B1A1A;
+}
+.our_firm .our_firm_text article div p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #645C55;
+}
+.reeding_house{
+    min-height: 600px;
+    background-image: url("../img/background_reeding_house.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+.descriptions{
+    max-width: 285px;
+}
+.reeding_house .descriptions h5{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #403E3B;
+}
+.reeding_house .descriptions p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #645C55;
+}
 .our_process{
     padding: 100px 0;
 }
@@ -160,6 +245,36 @@ header .conteiner1200 ul li:last-of-type a{
     letter-spacing: 0em;
     text-align: center;
     color: #645C55;
+}
+.marble_staircase{
+    background-image: url("../img/marble_straircase.jpg");
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 60px;
+}
+.marble_staircase div{
+    width: 300px;
+}
+.marble_staircase div h5{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+color: #403E3B;
+}
+.marble_staircase div p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #645C55;
 }
 .clients{
     background: #403E3B;
@@ -222,6 +337,43 @@ header .conteiner1200 ul li:last-of-type a{
     height: 210px;
     margin: 40px 40px 40px auto
 }
+.swirling_staircase{
+    background-image: url("../img/swirling_staircase.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px;
+}
+.swirling_staircase div{
+    width: 285px;
+}
+.swirling_staircase div h4{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+color: #403E3B;
+}
+.swirling_staircase div p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #645C55;
+}
+
+
+
+
+
+
+
 
 
 
