@@ -52,6 +52,29 @@ header .conteiner1200 ul li:last-of-type a{
     color: #FFFFFF;
     text-decoration: none;
 }
+.ui-widget-header{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+.ui-draggable .ui-dialog-titlebar{
+background-color: black;
+}
+.ui-widget-content{
+    border: none;
+    text-align: center;
+}
+.ui-widget.ui-widget-content{
+    border: none;
+}
+
 .architecture{
     padding: 137px 0 128px;
     background-color:#ECE7E4;
@@ -227,6 +250,18 @@ color: #645C55;
     max-width: 259px;
     text-align: center
 }
+.our_process article img{
+    max-width: 117px;
+    display: inline-block;
+}
+.owl-carousel .owl-item img{
+    display: inline-block;
+}
+.owl-carousel.owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .our_process article h3{
     margin: 15px 0 10px;
     font-family: 'Poppins';
@@ -317,26 +352,25 @@ color: #645C55;
     color: #FFFFFF;
     margin-bottom: 14px;
 }
+
 .logo_companies{
-    max-width: 432px;
+    min-width: 432px;
     margin-right: 144px;
-    display: flex;
-    justify-content: space-between;
-}
-.clients .logo_companies div{
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between
 }
 .logo1{
-    height: 178px;
-    margin: 64px auto 0 40px;
-    margin-right: 96px
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
 }
 .logo2{
-    height: 210px;
-    margin: 40px 40px 40px auto
+display: flex;
+    justify-content: space-between;
+   align-content: end;
+    align-items: center;
+    margin-top: 96px;
 }
+
 .swirling_staircase{
     background-image: url("../img/swirling_staircase.jpg");
     background-size: cover;
@@ -603,5 +637,24 @@ footer ul{
 }
 footer ul li:nth-child(2){
     margin: 0 20px;
+}
+.our_process .owl-carousel .owl-nav .owl-prev{
+    height: 20px;
+    width: 20px;
+    border-radius: 14px;
+    background-color: gray;
+}
+.our_process .owl-carousel .owl-nav .owl-next{
+    height: 20px;
+    width: 20px;
+    border-radius: 14px;
+    background-color: gray;
+}
+.our_process .owl-carousel .owl-nav{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 

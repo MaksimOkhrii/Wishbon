@@ -7,11 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wishbone</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="style/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl.theme.default.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <!-- говорить, щоб браузер не додавав своїх відступів -->
+
+      <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+
 
 </head>
 <body>
@@ -37,8 +44,11 @@
                 <li>
                     <a href="#">Contact</a>
                 </li>
-                <li>
-                    <a href="#">Get template</a>
+                <li id="opener">
+                     <a href="#">Get template</a>
+                    <div id="dialog" title="Create Get template">
+                        <p>Soon we will have a feature to create your own template</p>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -93,7 +103,27 @@
     <div class="conteiner1168">
         <h4>Our process</h4>
         <h2>How we do what we do.</h2>
-        <div class="d_flex">
+        <div class="d_flex owl-carousel">
+            <article>
+                <img src="img/skeching.svg" alt="sketching;">
+                <h3>Sketching</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus
+                    sapien ac arcu tempor, vitae tempor leo iaculis.</p>
+            </article>
+
+            <article>
+                <img src="img/finalizing.svg" alt="finalizing">
+                <h3>Finalizing</h3>
+                <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu
+                    tempor, vitae.</p>
+            </article>
+
+            <article>
+                <img src="img/building.svg" alt="Building">
+                <h3>Building</h3>
+                <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae
+                    lorem ipsum dolor leo iaculis.</p>
+            </article>
             <article>
                 <img src="img/skeching.svg" alt="sketching;">
                 <h3>Sketching</h3>
@@ -118,6 +148,7 @@
     </div>
 </section>
 
+
 <section class="marble_staircase">
     <div>
         <h5>The marble staircase</h5>
@@ -137,10 +168,11 @@
         <div class="logo_companies">
             <div class="logo1">
                 <a href="#"><img src="img/hillhayes.png" alt="HillHaes"></a>
-                <a href="#"><img src="img/studiocai.png" alt="StudioCai"></a>
+                <a href="#"><img src="img/riksgransen.png" alt="Riksgransen"></a>
             </div>
             <div class="logo2">
-                <a href="#"><img src="img/riksgransen.png" alt="Riksgransen"></a>
+                <a href="#"><img src="img/studiocai.png" alt="StudioCai"></a>
+
                 <a href="#"><img src="img/chilltndustries.png" alt="ChillTndustries"></a>
             </div>
         </div>
@@ -265,5 +297,10 @@
         </ul>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+<script src="js/scripts.js"></script>
 </body>
 </html>
